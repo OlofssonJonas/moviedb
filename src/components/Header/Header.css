@@ -1,0 +1,22 @@
+header {
+    height: 4rem;
+    background-color: rhg(53, 38, 69);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+header h1 {
+    font-weight: 100;
+}
+
+header h1 > span {
+    font-weight: 400;
+    color: rgb(232, 232, 146);
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+}
